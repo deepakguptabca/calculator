@@ -11,14 +11,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: linear-gradient(to top, #8eefe4, #0d45fd);
 }
 
 .container {
-    border: 2px solid black;
-    width: 320px;
-    background-color: #8eefe4;
-    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    width: 420px;
     padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15); 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    color: #000; 
 }
 
 #input-box {
@@ -30,6 +37,10 @@ body {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJjbmRqNWd6aGdqdzJ2ejRtanE1Nzc2dm1tcnI0NXpkZnUwMDNxcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HBWbIuHvXI2Eo/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
 }
 
 .clear {
@@ -46,7 +57,7 @@ body {
 }
 
 .clear:hover {
-    background: #FF4365;
+    background:linear-gradient(to bottom, #FF4365, #FFB433);
 }
 
 .all-btns {
@@ -67,5 +78,5 @@ body {
 }
 
 .butt:hover {
-    background: #FF4365;
+    background:linear-gradient(to bottom, #FF4365, #FFB433);
 }
