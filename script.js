@@ -1,3 +1,5 @@
+
+
 let btn = document.querySelectorAll(".btn");
 const inputBox = document.querySelector("#input-box");
 
@@ -17,3 +19,34 @@ function work(){
 }
 
 work()
+
+ particlesJS("bubble-background", {
+        "particles": {
+            "number": {
+                "value": 40
+            },
+            "size": {
+                "value": 6
+            },
+            "shape": {
+                "type": "circle"
+            },
+            "opacity": {
+                "value": 0.3
+            },
+            "move": {
+                "direction": "top",
+                "speed": 1
+            },
+            "color": {
+                "value": "#ffffff"
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": false
+                }
+            }
+        }
+    });
